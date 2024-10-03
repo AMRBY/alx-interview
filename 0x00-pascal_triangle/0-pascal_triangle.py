@@ -1,7 +1,6 @@
-
 #!/usr/bin/python3
 """
-0. Pascal's Triangle
+This is Pascal's Triangle
 """
 
 
