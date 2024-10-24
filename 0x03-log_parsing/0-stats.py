@@ -47,7 +47,7 @@ if __name__ == "__main__":
         for line in sys.stdin:
             try:
                 countCodeSize(line.split(" "))
-            except:
+            except Exception:
                 pass
             if counters["lines"] % 10 == 0:
                 printCodes()
